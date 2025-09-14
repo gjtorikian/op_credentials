@@ -43,6 +43,8 @@ GEM
     lint_roller (1.1.0)
     logger (1.7.0)
     minitest (5.25.5)
+    mocha (2.7.1)
+      ruby2_keywords (>= 0.0.5)
     parallel (1.27.0)
     parser (3.3.9.0)
       ast (~> 2.4.1)
@@ -50,7 +52,7 @@ GEM
     pp (0.6.2)
       prettyprint
     prettyprint (0.2.0)
-    prism (1.5.0)
+    prism (1.5.1)
     psych (5.2.6)
       date
       stringio
@@ -117,6 +119,7 @@ GEM
       rubocop (~> 1.72, >= 1.72.1)
       rubocop-ast (>= 1.44.0, < 2.0)
     ruby-progressbar (1.13.0)
+    ruby2_keywords (0.0.5)
     securerandom (0.4.1)
     stringio (3.1.7)
     tzinfo (2.0.6)
@@ -134,6 +137,7 @@ DEPENDENCIES
   debug
   irb
   minitest (~> 5.16)
+  mocha (~> 2.7)
   op_credentials!
   rake (~> 13.0)
   rubocop-standard

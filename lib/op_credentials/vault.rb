@@ -62,7 +62,8 @@ module OpCredentials
     end
 
     private def include_tags(tags = [])
-      tags && tags.compact!
+      return " " if tags.nil?
+      tags.compact!
       tags.any? ? " --tags #{tags.join(",")} " : " "
     end
 

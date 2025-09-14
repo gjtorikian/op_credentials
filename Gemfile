@@ -9,6 +9,7 @@ gem "irb"
 gem "rake", "~> 13.0"
 
 gem "minitest", "~> 5.16"
+gem "mocha", "~> 2.7"
 
 gem "debug"
 
