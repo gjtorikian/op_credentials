@@ -42,7 +42,7 @@ GEM
     language_server-protocol (3.17.0.5)
     lint_roller (1.1.0)
     logger (1.7.0)
-    minitest (5.25.5)
+    minitest (5.26.0)
     mocha (2.7.1)
       ruby2_keywords (>= 0.0.5)
     parallel (1.27.0)
@@ -59,7 +59,7 @@ GEM
     racc (1.8.1)
     rack (3.2.1)
     rainbow (3.1.1)
-    rake (13.3.0)
+    rake (13.3.1)
     rdoc (6.14.2)
       erb
       psych (>= 4.0.0)
@@ -136,10 +136,10 @@ PLATFORMS
 DEPENDENCIES
   debug
   irb
-  minitest (~> 5.16)
+  minitest (~> 5.26)
   mocha (~> 2.7)
   op_credentials!
-  rake (~> 13.0)
+  rake (~> 13.3)
   rubocop-standard
 
 BUNDLED WITH
