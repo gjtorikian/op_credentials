@@ -6,10 +6,10 @@ source "https://rubygems.org"
 gemspec
 
 gem "irb"
-gem "rake", "~> 13.0"
+gem "rake", "~> 13.3"
 
-gem "minitest", "~> 5.16"
-gem "mocha", "~> 2.7"
+gem "minitest", "~> 6.0"
+gem "mocha", "~> 3.0"
 
 gem "debug"
 
